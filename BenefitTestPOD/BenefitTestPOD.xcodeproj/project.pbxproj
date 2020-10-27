@@ -15,7 +15,7 @@
 		E887EE62250914540079A24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E887EE61250914540079A24D /* Assets.xcassets */; };
 		E887EE65250914540079A24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E887EE63250914540079A24D /* LaunchScreen.storyboard */; };
 		E887EE6B250914850079A24D /* BenefitTestPOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E887EE47250914290079A24D /* BenefitTestPOD.framework */; };
-		E887EE6C250914850079A24D /* BenefitTestPOD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E887EE47250914290079A24D /* BenefitTestPOD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E887EE6C250914850079A24D /* BenefitTestPOD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E887EE47250914290079A24D /* BenefitTestPOD.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E887EE76250914E70079A24D /* ShowBenefitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E887EE75250914E70079A24D /* ShowBenefitViewController.swift */; };
 		E887EE77250915340079A24D /* BenefitInAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E887EE70250914B20079A24D /* BenefitInAppSDK.framework */; };
 		E887EE78250915340079A24D /* BenefitInAppSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E887EE70250914B20079A24D /* BenefitInAppSDK.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };

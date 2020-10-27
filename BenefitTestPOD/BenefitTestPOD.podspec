@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BenefitTestPOD"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Do you really think I can embed static lib inside the pod? I think this is not possible. But there is only one way to figure it out."
 
   # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "BenefitTestPOD/LICENSE"
+  spec.license      = "../LICENSE"
   # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "BenefitTestPOD/Core/Testing/**/*.{h,m,swift}"
+  spec.source_files  = "BenefitTestPOD/BenefitTestPOD/Core/Testing/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -105,7 +105,9 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-    spec.resources = "BenefitTestPOD/Core/Resources/**/*.{h,m,swift,framework,nib}"
+  # spec.resources = "BenefitTestPOD/BenefitTestPOD/Core/Resources/**/*.{h,m,swift,framework,nib}"
+  spec.resource_bundles = {
+    'TapBenefitPay' => ['BenefitTestPOD/BenefitTestPOD/Core/Resources/**/*.{h,m,swift,framework,nib,plist,car}'] }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -133,5 +135,4 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  spec.weak_framework = 'BenefitInAppSDK'
 end
